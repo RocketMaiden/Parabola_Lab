@@ -23,7 +23,6 @@ float x = x1;
 while (x <= x2)
 {
     Console.WriteLine($"{x}, {parabola.Draw(x)}");
-
     x += step;
 }
 
