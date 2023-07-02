@@ -17,5 +17,10 @@
         {
             return (float)(a * Math.Pow(x, 2) + b * x + c);
         }
+
+        public (float a, float b, float c) ShowAttributes()
+        {
+            return(a, b, c);
+        }
     }
 }
